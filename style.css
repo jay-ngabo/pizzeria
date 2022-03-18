@@ -12,8 +12,10 @@ body {
 .img-fluid {
     margin-top: -45px;
 }
-.text-center {
-    font-family: "Audiowide", sans-serif;
+.brandName {
+    font-family: 400 100px/1.2 'Merienda One', Helvetica, sans-serif;
+  color: rgba(0,0,0,0.7);
+  text-shadow: 3px 3px 3px #fff;; 
 }
 
 
@@ -66,12 +68,12 @@ span{
     border-style: 10px solid yellow;
     border-color: yellow;
     background-color: yellow;
-    color: red;
+    /* color: red; */
     /* background: transparent; */
     
     margin: 3%;
     border: 10px;
-    border-radius: 100px%;
+    border-radius: 100px;
 
 
 }
@@ -82,4 +84,17 @@ span{
 }
 .position-relative {
     margin-top: 100px;
+}
+.menu {
+    color: #2b2b2b;
+    border-style: double;
+    border-color: yellow;
+    margin-left: 40%;
+
+}
+.list {
+    color: #aaa;
+}
+.text-center {
+    color: yellow;
 }
