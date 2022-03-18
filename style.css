@@ -6,22 +6,26 @@
     box-sizing: content-box;
 }
 
-body {
-    background-color: white;
+.body {
+    
+    
 }
 .img-fluid {
-    margin-top: -45px;
+    margin-top: 60px;
+    border: none;
 }
 .brandName {
     font-family: 400 100px/1.2 'Merienda One', Helvetica, sans-serif;
   color: rgba(0,0,0,0.7);
   text-shadow: 3px 3px 3px #fff;; 
+  padding: 10%;
 }
 
 
 #aboutus {
     color: #aaa;
     text-align: center;
+    /* background-image: url(./assets/pizza\ bg.jpg); */
 }
 .header {
     color: hsl(60, 100%, 50%);
@@ -90,11 +94,55 @@ span{
     border-style: double;
     border-color: yellow;
     margin-left: 40%;
+    /* background-image: url(./assets/pizza\ bg.jpg);
+    background-size: cover;
+    height: 60hv; */
 
 }
 .list {
     color: #aaa;
+    /* background-image: url(./assets/pizza\ bg.jpg);
+    height: 70vh; */
 }
 .text-center {
     color: yellow;
+}
+#part2 {
+    /* F */
+    /* background-size: cover;
+    width: 100%;
+    height: 120vh; */
+}
+.overlay {
+    margin-top: -100px;
+    border-spacing: 10px;
+    color: white;
+    display: none;
+}
+/* .nav-item {
+    color: yellow; */
+/* } */
+.navbar {
+    float: right;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: x-large;
+    color: white;
+    padding: 40px;
+    margin-right: 20px;
+    position: absolute;
+    top:0;
+    right:0;
+    justify-content: space-between;
+    margin-top: -100px;
+    
+}
+li{
+    list-style: none;
+    justify-content: space-around;
+    margin-right: 80px;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
