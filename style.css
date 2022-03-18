@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+*{
+    padding: 0;
+    margin: o;
+    box-sizing: content-box;
+}
+
+body {
+    background-color: white;
+}
+.img-fluid {
+    margin-top: -45px;
+}
+.text-center {
+    color: yellow;
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+    font-weight: bold;
+    font-style: italic;
+}
+.nav-item {
+    color: red;
+
+}
