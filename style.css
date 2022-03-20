@@ -165,26 +165,26 @@ a{
 }
 td, th{
     font-size: 30px;
-    /* margin: 10%; */
-    /* padding: 5%; */
-    display: none;
+    margin: 10%; 
+    padding: 5%;
+    
 }
 .delivery {
     width: 50%;
-    display: none;
+    /* display: none; */
 }
 #delivery-cost {
-    display: none;
+    /* display: none; */
 }
 #message {
-    display: none;
+    /* display: none; */
 }
 .add-pizza {
-    display: none;
+    /* display: none; */
 }
 .deliver {
-    display: none;
+    /* display: none; */
 }
 #checkout {
-    display: none;
+    /* display: none; */
 }
