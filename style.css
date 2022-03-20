@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+
+
+
 *{
     padding: 0;
     margin: o;
@@ -15,9 +17,7 @@
     border: none;
 }
 .brandName {
-    font-family: 400 100px/1.2 'Merienda One', Helvetica, sans-serif;
-  color: rgba(0,0,0,0.7);
-  text-shadow: 3px 3px 3px #fff;; 
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 10%;
 }
 
@@ -25,7 +25,9 @@
 #aboutus {
     color: #aaa;
     text-align: center;
-    /* background-image: url(./assets/pizza\ bg.jpg); */
+    background-image: url(./assets/pizza\ bg.jpg);
+    margin-top: 20px;
+    height: 30vh;
 }
 .header {
     color: hsl(60, 100%, 50%);
@@ -47,8 +49,9 @@
     margin-top: 150px;
 }
 .offers2 {
-    display: none;
+    
     text-align: center;
+    margin-top: 5%;
 }
 span{
     color: black;
@@ -90,9 +93,8 @@ span{
     /* border-style: double; */
     border-color: yellow;
     margin-left: 40%;
-    /* background-image: url(./assets/pizza\ bg.jpg);
-    background-size: cover;
-    height: 60hv; */
+    
+   
     
 
 }
