@@ -30,25 +30,21 @@
 .header {
     color: hsl(60, 100%, 50%);
 }
-.descript {
-    font: 400 100px/1.0 'Just Another Hand', Helvetica, sans-serif;
-    color: #969595;
-    text-shadow: 0px 3px 0px #5e5e5e, 0px 5px 0px #4d4d4d, 0px 7px 0px #3c3c3c, 0px 9px 0px #2b2b2b, 3px 8px 15px rgba(0,0,0,0.1), 3px 8px 5px rgba(0,0,0,0.3);
-    color: yellow;
-
-  }
-  
-
-.descript2 {
-    
-  /* font: 400 100px/1.3 'Arizonia', Helvetica, sans-serif;
-  color: #2b2b2b; */
-  /* text-shadow: 4px 4px 0px rgba(0,0,0,0.1); */
-  
+.list {
+    background-image: url(./assets/p6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
 }
-.offers {
+  
+
+
+  
+
+.offer {
     justify-content: center;
     text-align: center;
+    margin-top: 150px;
 }
 .offers2 {
     display: none;
@@ -91,12 +87,13 @@ span{
 }
 .menu {
     color: #2b2b2b;
-    border-style: double;
+    /* border-style: double; */
     border-color: yellow;
     margin-left: 40%;
     /* background-image: url(./assets/pizza\ bg.jpg);
     background-size: cover;
     height: 60hv; */
+    
 
 }
 .list {
@@ -116,7 +113,9 @@ span{
 .overlay {
     margin-top: -100px;
     border-spacing: 10px;
-    color: white;
+    color: black;
+    font-weight: bold;
+    font-size: large;
     display: none;
 }
 /* .nav-item {
@@ -145,4 +144,11 @@ li{
 a{
     text-decoration: none;
     color: black;
+}
+.two {
+    color: yellow;
+}
+.card {
+    margin-top: 40px;
+    background-color: yellow;
 }
