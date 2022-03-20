@@ -18,10 +18,10 @@
     <div class="container-fluid">
     <!-- <div> -->
       <div class="navbar">
-        <li><a href="#menu" class="menu"><strong>menu</strong></a></li>
-        <li><a href="#offers"><strong>Offers</strong></a></li>
-        <li><a href="#Contacts"><strong>Contact Us</strong></a></li>
-        <li> <a href="#aboutus"><strong>About us</strong></a></li>
+        <li><a href="#menu"><strong>menu</strong></a></li>
+        <li><a href="#offering"><strong>Offers</strong></a></li>
+        <li><a href="#contacts"><strong>Contact Us</strong></a></li>
+        <li><a href="#aboutus"><strong>About us</strong></a></li>
    </div>
       <div class="position-relative">
      <div class="position-absolute top-50 start-50 translate-middle"><img src="./assets/logo2.jpg" width="200px" class="img-fluid" alt="..."></div> 
@@ -34,14 +34,19 @@
    
   
 
-    <h2 class="descript">So Tasty</h2>
-    <h2 class="descript2">AND DELICIOUS </h2>
+    <h4 class="descript"><span style="color: yellow;">So Tasty,</span> AND DELICIOUS </h4>
+    <div class="row tasty">
+     <div class="col-lg-3"> <img src="./assets/p3.jpg" width="80%" height="200vh" alt=""></div>
+     <div class="col-lg-3">  <img src="./assets/p1.jpg" width="80%" height="200vh" alt=""></div>
+     <div class="col-lg-3"> <img src="./assets/p2.jpg" width="80%" height="200vh" alt=""></div>
+     <div class="col-lg-3"> <img src="./assets/p4.jpg" width="80%" height="200vh" alt=""></div>
+    </div>
     
      <!-- about us section -->
      <div id="part2">
      <div id="aboutus" >
       <h3 class="header">About us</h3>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis corporis illo, debitis enim cum impedit blanditiis ducimus laborum architecto. Neque magni pariatur nam facilis ipsa consectetur consequatur! Est, atque aut.</p>
+      <p>We are a family friendly restaurant with over ten years in operation. <br>Our italian chef ensures the pizzas are prepared as per the customers needs. our pizzas are freshly baked on demand and all the ingredients used are fresh. <br> We also adhere strictly to the covid-19 protocols as stipulated. Come and enjoy the goodness with us</p>
     </div>
     <!-- menu section -->
     <div class="row" id="menu" >
@@ -50,20 +55,84 @@
         </div>
        <!-- <div class="col-lg-3"> <img src="./assets/meat.jpg" height="90vh" alt=""></div> -->
         <div class="list">
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, doloremque recusandae nihil sunt cumque et! Dolorum natus itaque laboriosam dolores iusto, laudantium laborum. Architecto recusandae quisquam nesciunt molestiae veritatis error.</p>
+          <div class="row menu">
+            <div class="col-lg-2 card">
+              <h5>Regular~500/=</h5>
+            </div>
+            <div class="col-lg-2 card">
+              <h5>Medium~700/=</h5>
+            </div>
+            <div class="col-lg-2 card">
+              <h5>large~1000/=</h5>
+            </div>
+            <div class="col-lg-2 card">
+              <h5>Toppings~50/=</h5>
+            </div>
+
+          </div>
+          <li>
+            <ul>
+              <p class="two">1.Hawaiian ~ succulent chicken bbq and pineapples</p>
+            </ul><br>
+            <ul>
+              <p class="two">2.Bbq steak ~ marinated bbq steak and cheese</p><br>
+            </ul>
+            <ul>
+              <p class="two">3.Bbq chicken ~ succulent chicken bbq and mushroom</p><br>
+            </ul>
+            <ul>
+              <p class="two">4.Steak diablo ~ chicken and steak bbq</p><br>
+            </ul>
+          </li>
+          <p class="two" >*We also offer our customers a choice between thick and thin crust at no extra cost</p>
+          <div class="row">
+            <div class="col-lg-5">
+          <form action="">
+          
+            <select class="form-select" id="" aria-label="Default select example">
+              <option selected>Select flavour</option>
+              <option value=""Hawaiian>Hawaiian</option>
+              <option value="bbq steak">bbq steak</option>
+              <option value="bbq chicken">bbq chicken</option>
+              <option value="steak diablo">steak diablo</option>
+            </select>
+            <select class="form-select" id="size" aria-label="Default select example">
+              <option selected>Select size</option>
+              <option value="Regular">Regular</option>
+              <option value="medium">medium</option>
+              <option value="large">large</option>
+            </select>
+            
+            <select class="form-select" id="toppings" aria-label="Default select example">
+              <option selected>Toppings</option>
+              <option value="yes">yes</option>
+              <option value="No">No</option>
+              
+            </select>
+            <button type="submit" id="button" class="submit-button">submit</button>
+            
+          </form>
+
+        </div>
+       <div class="col-lg-7 orders"></div>
+        
+
+      
        
       </div>
     </div>
   </div>
   
     <!-- offers section -->
-    <div class="Offers" id="offers">
+    <section id="offering">
+    <div class="Offers">
+    
     <h2 class="text-center"> OFFERS <span>click to view </span></h2>
-    <div class="row offers">
+    <div class="row offer">
       <div class="col-lg-4"><img src="./assets/bogof.jpg" width="80%" height="60%" alt="">
         <div class="overlay">
           <p>what is better than 1 pizza?</p><br>
-          <p>2 pizzas</p>
+          <p class="two" >2 pizzas</p>
         </div>
         <div class="offers2">
         <p>Every Tuesday and Thursday , for every pizza you buy, you get one on us because we love our customers that much</p>
@@ -79,6 +148,7 @@
       </div>
       </div>
     </div>
+  </section>
     
 
   </div>
