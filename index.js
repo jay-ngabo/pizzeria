@@ -80,8 +80,18 @@ $(document).ready(function() {
         }
         if ((pSize == "0") && (ptoppings == "0")){
             console.log('nothing selected');
+            $(button.submit-button).show();
+            
+            $(div.orders).hide();
+            alert('select pizza size and toppings')
 
 
+        }
+
+        else {
+            $(button.submit-button).hide();
+            
+            $(div.orders).show();
         }
 
 
