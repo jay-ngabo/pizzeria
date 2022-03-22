@@ -29,21 +29,7 @@
 #button{
     background-color: green;
 }
-/* .navbar {
-    float: right;
-    text-decoration: none;
-    display: inline-flex;
-    font-size: x-large;
-    color: red;
-    padding: 40px;
-    margin-right: 20px;
-    position: absolute;
-    top:0;
-    right:0;
-    justify-content: space-between;
-    margin-top: -100px;
-    
-} */
+
 .text-center{
     color: yellow;
 }
