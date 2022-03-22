@@ -34,7 +34,7 @@
     text-decoration: none;
     display: inline-flex;
     font-size: x-large;
-    color: white;
+    color: red;
     padding: 40px;
     margin-right: 20px;
     position: absolute;
@@ -44,3 +44,6 @@
     margin-top: -100px;
     
 } */
+.text-center{
+    color: yellow;
+}
