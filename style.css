@@ -1,129 +1,35 @@
-
-
-
-
 *{
     padding: 0;
-    margin: o;
-    box-sizing: content-box;
+    margin: 0;
+    box-sizing: border-box;
 }
-
-.body {
-    
-    
-}
-.img-fluid {
-    margin-top: 60px;
-    border: none;
-}
-.brandName {
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 10%;
-}
-
-
-#aboutus {
-    color: #aaa;
-    text-align: center;
-    background-image: url(./assets/pizza\ bg.jpg);
-    margin-top: 20px;
-    height: 30vh;
-}
-.header {
-    color: hsl(60, 100%, 50%);
-}
-.list {
-    background-image: url(./assets/p6.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 50px;
-}
-  
-
-
-  
-
-.offer {
-    justify-content: center;
-    text-align: center;
-    margin-top: 150px;
-}
-.offers2 {
-    
-    text-align: center;
-    margin-top: 5%;
-}
-span{
-    color: black;
-}
-.contact {
-    background-image: url(./assets/map.jpg);
-    height: 30vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-}
-.container-fluid1 {
-    color: hsl(60, 100%, 50%);
-}
-.card {
-    border-style: 10px solid yellow;
-    border-color: yellow;
-    background-color: yellow;
-    /* color: red; */
-    /* background: transparent; */
-    
-    margin: 3%;
-    border: 10px;
-    border-radius: 100px;
-
-
-}
-.brandName{
-    /* margin-top: 100px; */
-    padding-top: 4%;
-   
-}
-.position-relative {
-    margin-top: 100px;
-}
-.menu {
-    color: #2b2b2b;
-    /* border-style: double; */
-    border-color: yellow;
-    margin-left: 40%;
-    
-   
-    
-
-}
-.list {
-    color: #aaa;
-    /* background-image: url(./assets/pizza\ bg.jpg);
-    height: 70vh; */
-}
-.text-center {
-    color: yellow;
-}
-#part2 {
-    /* F */
-    /* background-size: cover;
-    width: 100%;
-    height: 120vh; */
-}
-.overlay {
-    margin-top: -100px;
-    border-spacing: 10px;
-    color: black;
-    font-weight: bold;
-    font-size: large;
+#addedprice{
     display: none;
 }
-/* .nav-item {
-    color: yellow; */
-/* } */
-.navbar {
+#finallmessage{
+    display: none;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 28px;
+}
+.choise{
+    display: none;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.deliver{
+    display: none;
+}
+.delivery{
+    display: none;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#button{
+    background-color: green;
+}
+/* .navbar {
     float: right;
     text-decoration: none;
     display: inline-flex;
@@ -137,54 +43,4 @@ span{
     justify-content: space-between;
     margin-top: -100px;
     
-}
-li{
-    list-style: none;
-    justify-content: space-around;
-    margin-right: 80px;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
-.two {
-    color: yellow;
-}
-.card {
-    margin-top: 40px;
-    background-color: yellow;
-}
-#button, #checkout, #final-order {
-    width: 120px;
-    background-color: yellow;
-    margin: 1%;
-}
-.orders {
-    color: #2b2b2b;
-  
-}
-td, th{
-    font-size: 30px;
-    margin: 10%; 
-    padding: 5%;
-    
-}
-.delivery {
-    width: 50%;
-    /* display: none; */
-}
-#delivery-cost {
-    /* display: none; */
-}
-#message {
-    /* display: none; */
-}
-.add-pizza {
-    /* display: none; */
-}
-.deliver {
-    /* display: none; */
-}
-#checkout {
-    /* display: none; */
-}
+} */
